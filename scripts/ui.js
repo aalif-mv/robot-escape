@@ -31,7 +31,7 @@ class Ui {
         canvas.font("30px Comic Sans MS");
         canvas.fillText("score: "+ Math.floor(world.worldCordinates.getY), 20, 40 - canvas.canvas.height/2);
         canvas.font("20px Comic Sans MS");
-        canvas.fillText("hight score: "+ world.highScore, 20, 70 - canvas.canvas.height/2);
+        canvas.fillText("high score: "+ world.highScore, 20, 70 - canvas.canvas.height/2);
         canvas.fillStyle("white");
         canvas.font("30px AgencyFB");
         if (!world.gameOver) {
@@ -68,7 +68,7 @@ class Ui {
                         world.restart();
                         break;
                     case 4:
-                        window.location = "https://softdev00.github.io/";
+                        window.close();
                     default:
                         break;
                 }
