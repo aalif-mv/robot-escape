@@ -69,6 +69,7 @@ class Ui {
                         break;
                     case 4:
                         window.close();
+                        window.location = "https://softdev00.github.io/";
                     default:
                         break;
                 }
