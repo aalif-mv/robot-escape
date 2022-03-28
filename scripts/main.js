@@ -62,7 +62,7 @@ const ui = new Ui();
 
 window.addEventListener('keydown', function(e) {
     keyMap.set(e.key, e.type === "keydown");
-    if (world.gameOver && (keyMap.get(" ") || keyMap.get("Enter"))) {
+    if (world.currentUi == "game" && world.gameOver && (keyMap.get(" ") || keyMap.get("Enter"))) {
         world.restart();
     }
 });
