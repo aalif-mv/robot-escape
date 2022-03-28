@@ -10,12 +10,14 @@ class Player {
         this.jumpSpeed = 30;
         this.speed = 5;
         this.image = new Image();
-        this.image.src = "assets/player.svg";
+        this.image.src = "assets/graphics/player.svg";
     }
     update() {
         if (this.pos.getY >= canvas.canvas.height/2 + 100) {
             world.gameOver = true;
             localStorage.setItem('highScore', String(world.highScore));
+            world.money += Math.floor(world.worldCordinates.getY / 20);
+            localStorage.setItem('money', String(world.money));
             setTimeout(stopEngine, 1);
         }
         if (keyMap.get("a") || keyMap.get("A") || keyMap.get("ArrowLeft")) {

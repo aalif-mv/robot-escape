@@ -5,16 +5,19 @@ class World {
         this.width = canvas.canvas.width;
         this.platforms = [];
         this.gameOver = false;
+        this.currentUi = "menu";
         this.highScore = 0;
+        this.money = 0;
         this.image = new Image();
-        this.image.src = "assets/platform.svg";
+        this.image.src = "assets/graphics/platform.svg";
     }
     load() {
         if (localStorage.getItem("highScore") != null) {
             this.highScore = parseInt(localStorage.getItem("highScore"));
         }
-        this.generate(15)
-        this.platforms.push({x: this.width/2 - 69.999/3, y: this.height/3, w: 69.999, h: 30})
+        if (localStorage.getItem("money") != null) {
+            this.money = parseInt(localStorage.getItem("money"));
+        }
     }
     render() {
         this.del()
@@ -25,11 +28,55 @@ class World {
     }
     generate(no) {
         for (let i = 0; i < no; i++) {
-            this.platforms.push({x: random(0, this.width-player.width), y: random(this.height/2 - this.worldCordinates.getY, (-this.height/2 - this.worldCordinates.getY)), w: 69.999, h: 30})
+            let count = 0;
+            while (true) {
+                let state = [];
+                var x = random(0, this.width- 67);
+                var y = random(this.height/2 - this.worldCordinates.getY, (-this.height/2 - this.worldCordinates.getY));
+                for (let i = 0; i < this.platforms.length; i++) {
+                    if (hypotenuse(x - this.platforms[i].x, y - this.platforms[i].y) > 200) {
+                        state.push(true);
+                    } else {
+                        state.push(false);
+                    }
+                }
+                if (! state.includes(false)) {
+                    break;
+                }
+                count += 1;
+                if (count >= 300) {
+                    break;
+                }
+            }
+            if (count < 300) {
+                this.platforms.push({x: x, y: y, w: 69.999, h: 30});
+            }
         }
     }
     loadPlatforms() {
-        this.platforms.push({x: random(0, this.width-player.width), y: -this.height/2 - this.worldCordinates.getY, w: 69.999, h: 30})
+        let count = 0;
+        while (true) {
+            let state = [];
+            var x = random(0, this.width - 67);
+            var y = random((-this.height/2 - this.worldCordinates.getY), (-this.height/2 - this.worldCordinates.getY)-100);
+            for (let i = 0; i < this.platforms.length; i++) {
+                if (hypotenuse(x - this.platforms[i].x, y - this.platforms[i].y) > 70) {
+                    state.push(true);
+                } else {
+                    state.push(false);
+                }
+            }
+            if (! state.includes(false)) {
+                break;
+            }
+            count += 1;
+                if (count >= 300) {
+                    break;
+                }
+        }
+        if (count < 300) {
+            this.platforms.push({x: x, y: y, w: 69.999, h: 30});
+        }
     }
     del() {
         for (let i = 0; i < this.platforms.length; i++) {
@@ -51,6 +98,7 @@ class World {
         player.pos.setX(canvas.canvas.width/2);
         player.velocity.reset();
         this.gameOver = false;
+        this.currentUi = "game";
         engine.start();
     }
 }

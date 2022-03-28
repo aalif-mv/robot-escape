@@ -13,6 +13,7 @@ class Canvas {
             y: (this.canvas.height / 2)
         };
         document.body.appendChild(this.canvas);
+        // this.ctx.imageSmoothingEnabled = true;
     }
     resize(width, height) {
         this.clear();
