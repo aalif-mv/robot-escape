@@ -69,6 +69,10 @@ window.addEventListener('keydown', function(e) {
 window.addEventListener('keyup', function(e) {
     keyMap.set(e.key, !(e.type === "keyup"));
 });
+window.addEventListener('contextmenu', function(e) {
+    e.preventDefault()
+    return false;
+});
 
 init();
 
