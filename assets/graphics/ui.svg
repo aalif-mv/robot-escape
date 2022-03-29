@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="279.10461mm"
-   height="112.44825mm"
-   viewBox="0 0 279.10462 112.44825"
+   width="279.10464mm"
+   height="175.08191mm"
+   viewBox="0 0 279.10465 175.08191"
    version="1.1"
    id="svg5"
    sodipodi:docname="ui.svg"
@@ -27,9 +27,9 @@
      inkscape:pagecheckerboard="1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="368.04908"
-     inkscape:cy="257.03331"
+     inkscape:zoom="0.70710682"
+     inkscape:cx="707.81385"
+     inkscape:cy="408.00059"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -211,20 +211,67 @@
        y1="10.470132"
        x2="84.420998"
        y2="10.470132" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient64296"
+       id="linearGradient64298"
+       x1="64.200684"
+       y1="-5.9868374"
+       x2="170.25067"
+       y2="117.86586"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(103.26875,65.616931)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient64296">
+      <stop
+         style="stop-color:#ba81fb;stop-opacity:1;"
+         offset="0"
+         id="stop64292" />
+      <stop
+         style="stop-color:#7c2adc;stop-opacity:1"
+         offset="1"
+         id="stop64294" />
+    </linearGradient>
+    <rect
+       x="59.530598"
+       y="-42.739914"
+       width="169.95222"
+       height="43.519344"
+       id="rect8874-5-6-6" />
+    <rect
+       x="59.530598"
+       y="-42.739914"
+       width="169.95222"
+       height="43.519344"
+       id="rect8874-5-6" />
+    <rect
+       x="59.530598"
+       y="-42.739914"
+       width="72.77977"
+       height="42.30468"
+       id="rect8874-5" />
+    <rect
+       x="59.530598"
+       y="-42.739914"
+       width="103.83786"
+       height="45.174973"
+       id="rect8874-4" />
+    <rect
+       x="59.530598"
+       y="-42.739914"
+       width="64.884483"
+       height="43.519341"
+       id="rect8874-6" />
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
-       style="fill:#53f874;fill-opacity:0.98790324;fill-rule:evenodd;stroke-width:0.0021366;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+    <path
        id="rect846"
-       width="52.916668"
-       height="26.458334"
-       x="0"
-       y="0"
-       rx="0"
-       ry="8.1603603" />
+       style="fill:#53f874;fill-opacity:0.987903;fill-rule:evenodd;stroke-width:0.0021366;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="M 8.1603603,0 H 44.756308 c 4.520839,0 8.16036,3.6395207 8.16036,8.1603603 V 18.297974 c 0,4.520839 -3.639521,8.16036 -8.16036,8.16036 H 8.1603603 C 3.6395207,26.458334 0,22.818813 0,18.297974 V 8.1603603 C 0,3.6395207 3.6395207,0 8.1603603,0 Z" />
     <text
        xml:space="preserve"
        transform="matrix(0.26458386,0,0,0.26458439,39.187917,-10.403292)"
@@ -232,16 +279,11 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:71.9998px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';white-space:pre;shape-inside:url(#rect4390);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="-131.67969"
          y="114.75467"
-         id="tspan1138">Restart</tspan></text>
-    <rect
-       style="fill:#00ef98;fill-opacity:1;fill-rule:evenodd;stroke-width:0.0021366;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="tspan1869">Restart</tspan></text>
+    <path
        id="rect846-4"
-       width="52.916668"
-       height="26.458334"
-       x="9.5367432e-07"
-       y="26.458334"
-       rx="0"
-       ry="8.1603603" />
+       style="fill:#00ef98;fill-rule:evenodd;stroke-width:0.0021366;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="M 8.1603613,26.458334 H 44.756309 c 4.520839,0 8.16036,3.639521 8.16036,8.16036 v 10.137614 c 0,4.520839 -3.639521,8.16036 -8.16036,8.16036 H 8.1603613 C 3.6395217,52.916668 9.5367432e-7,49.277147 9.5367432e-7,44.756308 V 34.618694 C 9.5367432e-7,30.097855 3.6395217,26.458334 8.1603613,26.458334 Z" />
     <text
        xml:space="preserve"
        transform="matrix(0.26458386,0,0,0.26458439,46.067088,16.055042)"
@@ -249,7 +291,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:71.9998px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';white-space:pre;shape-inside:url(#rect4390-4);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="-131.67969"
          y="114.75467"
-         id="tspan1140">Menu</tspan></text>
+         id="tspan1871">Menu</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.24273864,0,0,0.24273864,-147.84917,-27.787239)"
@@ -257,7 +299,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:275px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';white-space:pre;shape-inside:url(#rect14486);fill:#87f4e1;fill-opacity:0.895161;stroke:#39ff9f;stroke-width:7.04882;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"><tspan
          x="813.82617"
          y="328.14235"
-         id="tspan1142">Game Over</tspan></text>
+         id="tspan1873">Game Over</tspan></text>
     <path
        id="rect846-2"
        style="fill:url(#linearGradient957);fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient959);stroke-width:0.966655;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
@@ -290,7 +332,7 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:36px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';white-space:pre;shape-inside:url(#rect8874);fill:#ffffff;fill-opacity:1;stroke:none"><tspan
          x="59.53125"
          y="-9.1089004"
-         id="tspan1144">START GAME</tspan></text>
+         id="tspan1875">START GAME</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.21782599,0,0,0.21782599,-5.3745612,75.760553)"
@@ -298,7 +340,7 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:36px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';white-space:pre;shape-inside:url(#rect8874-2);fill:#ffffff;fill-opacity:1;stroke:none"><tspan
          x="59.53125"
          y="-9.1089004"
-         id="tspan1146">DIFFICULTY</tspan></text>
+         id="tspan1877">DIFFICULTY</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.21782599,0,0,0.21782599,-5.3745612,87.666803)"
@@ -306,7 +348,7 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:36px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';white-space:pre;shape-inside:url(#rect8874-1);fill:#ffffff;fill-opacity:1;stroke:none"><tspan
          x="59.53125"
          y="-9.1089004"
-         id="tspan1148">SETTINGS</tspan></text>
+         id="tspan1879">SETTINGS</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.21782599,0,0,0.21782599,-5.3745612,99.573053)"
@@ -314,7 +356,7 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:36px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';white-space:pre;shape-inside:url(#rect8874-9);fill:#ffffff;fill-opacity:1;stroke:none"><tspan
          x="59.53125"
          y="-9.1089004"
-         id="tspan1150">ABOUT US</tspan></text>
+         id="tspan1881">ABOUT US</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.21782599,0,0,0.21782599,-5.3745612,111.4793)"
@@ -322,7 +364,7 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:36px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';white-space:pre;shape-inside:url(#rect8874-14);fill:#ffffff;fill-opacity:1;stroke:none"><tspan
          x="59.53125"
          y="-9.1089004"
-         id="tspan1152">QUIT GAME</tspan></text>
+         id="tspan1883">QUIT GAME</tspan></text>
     <g
        id="g13924"
        transform="translate(-1.7693213e-7,52.917001)">
@@ -568,5 +610,100 @@
            id="path68365" />
       </g>
     </g>
+    <g
+       id="g51966"
+       transform="translate(118.26877,65.881248)">
+      <path
+         id="rect846-1"
+         style="fill:#0debff;fill-opacity:1;fill-rule:evenodd;stroke:#17fff9;stroke-width:1.93551;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         d="M 52.610592,0.96775718 H 2.305 L 0.93752921,6.3117113 5.1995688,11.732243 H 49.716481 l 4.262038,-5.4205316 z"
+         sodipodi:nodetypes="ccccccc" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.21782503,0,0,0.21782441,7.5295214,11.334119)"
+         id="text8872-61"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:36px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';white-space:pre;shape-inside:url(#rect8874-6);fill:#ffffff;fill-opacity:1;stroke:none"><tspan
+           x="59.53125"
+           y="-9.1089004"
+           id="tspan1885">EASY</tspan></text>
+    </g>
+    <g
+       id="g52646"
+       transform="translate(118.26877,66.145833)">
+      <path
+         id="rect846-1-4"
+         style="fill:#00e0f8;fill-opacity:1;fill-rule:evenodd;stroke:#1ee8ff;stroke-width:1.93551;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         d="M 52.610595,13.667755 H 2.3054531 L 0.93752711,19.011709 5.1995691,24.432241 H 49.716484 l 4.262038,-5.420532 z"
+         sodipodi:nodetypes="ccccccc" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.21782467,0,0,0.21782386,4.0796416,24.030278)"
+         id="text8872-0"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:36px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';white-space:pre;shape-inside:url(#rect8874-4);fill:#ffffff;fill-opacity:1;stroke:none"><tspan
+           x="59.53125"
+           y="-9.1089004"
+           id="tspan1887">MEDIUM</tspan></text>
+    </g>
+    <g
+       id="g53416"
+       transform="translate(118.26877,66.410417)">
+      <path
+         id="rect846-1-5"
+         style="fill:#00d5ed;fill-opacity:1;fill-rule:evenodd;stroke:#0de0f8;stroke-width:1.93551;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         d="M 52.610595,26.367755 H 2.3054531 L 0.93752711,31.711709 5.1995691,37.132241 H 49.716484 l 4.262038,-5.420532 z"
+         sodipodi:nodetypes="ccccccc" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.21782578,0,0,0.21782441,7.1982174,36.734119)"
+         id="text8872-6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:36px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';white-space:pre;shape-inside:url(#rect8874-5);fill:#ffffff;fill-opacity:1;stroke:none"><tspan
+           x="59.53125"
+           y="-9.1089004"
+           id="tspan1889">HARD</tspan></text>
+    </g>
+    <g
+       id="g54010"
+       transform="translate(118.26877,66.675)">
+      <path
+         id="rect846-1-4-6"
+         style="fill:#00cfee;fill-opacity:1;fill-rule:evenodd;stroke:#11defe;stroke-width:1.93551;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         d="M 52.610594,39.067755 H 2.305453 L 0.93752711,44.411709 5.1995682,49.832241 H 49.716483 l 4.262038,-5.420532 z"
+         sodipodi:nodetypes="ccccccc" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.21782598,0,0,0.21782441,-3.9019917,49.434119)"
+         id="text8872-6-6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:36px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';white-space:pre;shape-inside:url(#rect8874-5-6);fill:#ffffff;fill-opacity:1;stroke:none"><tspan
+           x="59.53125"
+           y="-9.1089004"
+           id="tspan1891">PROGRESSIVE</tspan></text>
+    </g>
+    <g
+       id="g54733"
+       transform="translate(118.26877,2.116931)">
+      <path
+         id="rect846-1-4-67"
+         style="fill:#24f36e;fill-opacity:1;fill-rule:evenodd;stroke:#20ff78;stroke-width:1.93551;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         d="M 67.610788,51.767755 H 2.3054531 L 0.93752711,57.111709 5.1995691,62.532241 H 64.716677 l 4.262038,-5.420532 z"
+         sodipodi:nodetypes="ccccccc" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.21782598,0,0,0.21782441,6.8704159,62.378299)"
+         id="text8872-6-6-3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:36px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';white-space:pre;shape-inside:url(#rect8874-5-6-6);fill:#ffffff;fill-opacity:1;stroke:none"><tspan
+           x="59.53125"
+           y="-9.1089004"
+           id="tspan1893">CONTINUE</tspan></text>
+    </g>
+    <path
+       id="rect846-1-5-9"
+       style="fill:#71ff00;fill-opacity:0.397196;fill-rule:evenodd;stroke:none;stroke-width:1.93553;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 169.94224,117.73958 h -50.30553 l -1.36794,5.344 4.26207,5.42057 h 44.51726 l 4.26208,-5.42057 z"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       id="rect60559"
+       style="fill:url(#linearGradient64298);fill-opacity:1;fill-rule:evenodd;stroke-width:1.967;stroke-linecap:round;stroke-linejoin:bevel;paint-order:stroke fill markers"
+       d="m 183.18488,65.616931 h 72.79597 c 5.54,0 9.99998,4.46 10,9.999999 l 4e-4,89.46498 c 3e-5,5.54 -4.46,10 -10,10 h -72.79597 c -5.54,0 -9.99997,-4.46 -10,-10 l -4e-4,-89.46498 c -3e-5,-5.539999 4.46,-9.999999 10,-9.999999 z"
+       sodipodi:nodetypes="sssssssss" />
   </g>
 </svg>
