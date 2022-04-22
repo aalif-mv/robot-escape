@@ -20,10 +20,10 @@ class Player {
             localStorage.setItem('money', String(world.money));
             setTimeout(stopEngine, 1);
         }
-        if (keyMap.get("a") || keyMap.get("A") || keyMap.get("ArrowLeft")) {
+        if (keyMap.get("a") || keyMap.get("A") || keyMap.get("ArrowLeft") ||  touchController.l) {
             this.velocity.setX(-this.speed);
         }
-        if (keyMap.get("d") || keyMap.get("D") || keyMap.get("ArrowRight")) {
+        if (keyMap.get("d") || keyMap.get("D") || keyMap.get("ArrowRight") || touchController.r) {
             this.velocity.setX(this.speed);
         }
         this.velocity.add(new Vector2(0, this.gravity));

@@ -1,4 +1,5 @@
 const keyMap = new Map();
+const touchController = {r:false, l:false};
 
 var renderMenu = function() {
     canvas.clear();
@@ -68,6 +69,26 @@ window.addEventListener('keydown', function(e) {
 });
 window.addEventListener('keyup', function(e) {
     keyMap.set(e.key, !(e.type === "keyup"));
+});
+window.addEventListener('touchstart', function(e) {
+  let x = e.x - canvas.canvas.offSetLeft;
+  let y = e.y - canvas.canvas.offSetTop;
+  if (x >= 0 && x <= canvas.canvas.width/2 && y >= 0 && y <= canvas.canvas.height) {
+    touchController.l = true;
+  }
+  if (x >= canvas.canvas.width/2 && x <= canvas.canvas.width && y >= 0 && y <= canvas.canvas.height) {
+    touchController.r = true;
+  }
+});
+window.addEventListener('touchend', function(e) {
+  let x = e.x - canvas.canvas.offSetLeft;
+  let y = e.y - canvas.canvas.offSetTop;
+  if (x >= 0 && x <= canvas.canvas.width/2 && y >= 0 && y <= canvas.canvas.height) {
+    touchController.l = false;
+  }
+  if (x >= canvas.canvas.width/2 && x <= canvas.canvas.width && y >= 0 && y <= canvas.canvas.height) {
+    touchController.r = false;
+  }
 });
 // window.addEventListener('contextmenu', function(e) {
 //     e.preventDefault()
