@@ -71,8 +71,9 @@ window.addEventListener('keyup', function(e) {
     keyMap.set(e.key, !(e.type === "keyup"));
 });
 window.addEventListener('touchstart', function(e) {
-  let x = e.x - canvas.canvas.offSetLeft;
-  let y = e.y - canvas.canvas.offSetTop;
+  let x = e.touches[0].clientX - canvas.canvas.offsetLeft;
+  let y = e.touches[0].clientY - canvas.canvas.offsetTop;
+  console.log(x, y)
   if (x >= 0 && x <= canvas.canvas.width/2 && y >= 0 && y <= canvas.canvas.height) {
     touchController.l = true;
   }
@@ -81,14 +82,8 @@ window.addEventListener('touchstart', function(e) {
   }
 });
 window.addEventListener('touchend', function(e) {
-  let x = e.x - canvas.canvas.offSetLeft;
-  let y = e.y - canvas.canvas.offSetTop;
-  if (x >= 0 && x <= canvas.canvas.width/2 && y >= 0 && y <= canvas.canvas.height) {
-    touchController.l = false;
-  }
-  if (x >= canvas.canvas.width/2 && x <= canvas.canvas.width && y >= 0 && y <= canvas.canvas.height) {
-    touchController.r = false;
-  }
+  touchController.l = false;
+  touchController.r = false;
 });
 // window.addEventListener('contextmenu', function(e) {
 //     e.preventDefault()
